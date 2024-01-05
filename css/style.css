@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(../font/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Quicksand;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0px;
+}
+.title {
+  padding: 25px 52px;
+  text-align: center !important;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.end-sec {
+  margin: 20px 105px;
+}
+
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+/*
+.slick-current {
+  opacity: 1;
+} */
+#slider .carousel-control-prev,
+.carousel-control-next {
+  width: 6%;
+}
