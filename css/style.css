@@ -43,6 +43,11 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
 .end-sec {
   margin: 20px 105px;
 }
@@ -80,4 +85,25 @@ h2 {
 #slider .carousel-control-prev,
 .carousel-control-next {
   width: 6%;
+}
+
+#backtop {
+  position: fixed;
+  bottom: 115px;
+  right: -40px;
+  transform: rotate(-90deg);
+  color: black;
+  font-size: 12px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#backtop span {
+  font-weight: 900;
+  float: left;
+  margin: 4px 10px;
+}
+
+#backtop svg {
+  height: 25px;
 }

@@ -1,8 +1,3 @@
-// function handleHover(showId, hideId) {
-//   document.getElementById(showId).style.display = 'block';
-//   document.getElementById(hideId).style.display = 'none';
-// }
-
 function handleHover(showClass, hideClass) {
   const showElements = document.querySelectorAll(`.${showClass}`);
   const hideElements = document.querySelectorAll(`.${hideClass}`);
@@ -75,7 +70,7 @@ $(".center").slick({
 });
 
 $(".slider-responsive").slick({
-  dots: true,
+  dots: false,
   infinite: true,
   arrows: true,
   speed: 300,
@@ -106,4 +101,17 @@ $(".slider-responsive").slick({
       },
     },
   ],
+});
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop()) {
+      $("#backtop").fadeIn();
+    } else {
+      $("#backtop").fadeOut();
+    }
+  });
+  $("#backtop").click(function () {
+    $("html,body").animate({ scrollTop: 0 }, 100);
+  });
 });
