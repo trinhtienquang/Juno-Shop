@@ -33,6 +33,7 @@ a {
 p {
   margin-bottom: 10px;
   font-weight: 400;
+  line-height: 21px;
 }
 
 h2 {
@@ -49,6 +50,7 @@ h3 {
 
 .end-sec {
   margin: 20px 105px;
+  border: 1px solid #c9c9c9;
 }
 
 .slider {

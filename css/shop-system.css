@@ -1,0 +1,99 @@
+#banner {
+  margin-top: 70px;
+}
+#banner img {
+  width: 100%;
+  height: auto;
+}
+
+#find-showroom .title h1,
+#showroom-intro .title h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+#find-showroom .title p,
+#showroom-intro .title p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#find-showroom select {
+  height: 40px;
+  font-size: 14px;
+  outline: none;
+  background: white;
+  border: 1px solid #cecece;
+  font-weight: 400;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 0 20px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: 95%;
+}
+
+#find-showroom select.choose-city,
+#find-showroom select.choose-district,
+#find-showroom input.find {
+  height: 40px;
+  font-size: 14px;
+  outline: none;
+  background: white;
+  border: 1px solid #cecece;
+  font-weight: 400;
+  margin-bottom: 5px;
+  width: 31%;
+  padding: 0 20px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: 95%;
+}
+#find-showroom select.choose-district {
+  margin: 0 5px;
+}
+
+#find-showroom input.find {
+  height: 40px;
+  font-size: 14px;
+  outline: none;
+  background: white;
+  border: 1px solid #cecece;
+  font-weight: 400;
+  margin-bottom: 5px;
+  width: 31%;
+  padding: 0 20px;
+  background-image: url("../img/shop-system/magnifying-glass-finder-svgrepo-com.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: 95%;
+}
+
+#showroom-intro {
+  margin-top: 30px;
+  padding: 25px 0px 50px;
+}
+#showroom-intro .title {
+  padding-bottom: 0px;
+}
+
+#showroom-intro .showroom-intro-content {
+  position: relative;
+}
+#showroom-intro .box-content {
+  position: absolute;
+  height: 30px;
+  line-height: 34px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffffde;
+}
+#showroom-intro .box-content span {
+  font-size: 14px;
+}

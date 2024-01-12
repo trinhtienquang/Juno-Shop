@@ -134,4 +134,10 @@ ul.product-item-choose-color li img:hover {
 }
 .product-item:hover .hidden {
   display: block;
+  position: relative;
+  z-index: 9;
+  background-color: white;
+}
+.product-item:hover .showinfor {
+  z-index: 99 !important;
 }
