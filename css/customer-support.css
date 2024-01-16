@@ -1,10 +1,17 @@
 #Returnwarranty,
 #sizeselection,
-#payment-delivery {
+#payment-delivery,
+#privacy-policy,
+#frequently-questions,
+#loyal-customers,
+#shopping-guide {
   margin-top: 70px;
   padding: 30px 0px;
 }
-
+#loyal-customers {
+  margin-top: 59px;
+  padding-top: 0px;
+}
 #Returnwarranty h1,
 #sizeselection h1,
 #payment-delivery h1 {
@@ -25,8 +32,15 @@
   margin: 10px 0px;
   border-top: 1px solid black;
 }
-#sizeselection p {
+#sizeselection,
+#frequently-questions p {
   font-size: 14px;
+  font-weight: 500;
+}
+#privacy-policy p,
+#shopping-guide p {
+  font-size: 16px;
+  font-weight: 500;
 }
 #sizeselection p span {
   font-weight: bold;
@@ -59,4 +73,44 @@
 
 #sizeselection table tr:last-child {
   border-bottom: 1px solid black;
+}
+
+#loyal-customers .fisrt-content {
+  padding-top: 90px;
+  padding-bottom: 34px;
+  background-color: #e6e6e6;
+}
+
+#loyal-customers .container {
+  max-width: 1175px;
+}
+#loyal-customers .second-content {
+  background: url("../img/loyal-customer/bg2.jpg") no-repeat scroll 0 bottom
+    transparent;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+#loyal-customers .second-content .faq {
+  background: url("../img/loyal-customer/title2.jpg");
+  width: 713px;
+  height: 84px;
+}
+
+#loyal-customers .faq-container .faq-question {
+  margin: 0px;
+  padding: 0px 0px 5px 0px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+}
+#loyal-customers .faq-container .faq-question h3 {
+  font-size: 24px;
+}
+#loyal-customers .faq-container .faq-answer-question p {
+  font-size: 14px;
+  font-weight: 500;
+}
+#shopping-guide img {
+  display: block;
+  margin: 0 auto;
 }
