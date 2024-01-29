@@ -1,99 +1,69 @@
 @font-face {
   font-family: Quicksand;
-  src: url(../font/Quicksand/Quicksand-VariableFont_wght.ttf);
-}
+  src: url(../font/Quicksand/Quicksand-VariableFont_wght.ttf); }
+
 html,
 body {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 * {
   font-family: Quicksand;
   font-weight: 500;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
 .input-group {
-  margin: 15px 0px;
-}
+  margin: 15px 0px; }
 
 .container {
-  padding: 0px;
-}
+  padding: 0px; }
+
 .title {
   padding: 25px 52px;
-  text-align: center !important;
-}
+  text-align: center !important; }
+
 ul {
   padding: 0;
-  list-style-type: none;
-}
+  list-style-type: none; }
+
 li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 a {
   text-decoration: none;
-  color: black;
-}
+  color: black !important; }
 
 p {
   margin-bottom: 10px;
   font-weight: 400;
-  line-height: 21px;
-}
+  line-height: 21px; }
 
 h2 {
   margin-bottom: 5px;
   font-weight: bold;
   font-size: 21px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 h3 {
   font-size: 18px;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 .end-sec {
   margin: 20px 105px;
-  border: 1px solid #c9c9c9;
-}
+  border-top: 1px solid #c9c9c9; }
 
 .slider {
   width: 50%;
-  margin: 100px auto;
-}
+  margin: 100px auto; }
 
 .slick-slide {
-  margin: 0px 20px;
-}
+  margin: 0px 20px; }
+  .slick-slide img {
+    width: 100%; }
 
-.slick-slide img {
-  width: 100%;
-}
-
-.slick-prev:before,
-.slick-next:before {
-  color: black;
-}
-
-.slick-slide {
-  transition: all ease-in-out 0.3s;
-  opacity: 0.2;
-}
-
-.slick-active {
-  opacity: 1;
-}
-/*
-.slick-current {
-  opacity: 1;
-} */
 #slider .carousel-control-prev,
-.carousel-control-next {
-  width: 6%;
-}
+#slider .carousel-control-next {
+  width: 6%; }
 
 #backtop {
   position: fixed;
@@ -103,15 +73,10 @@ h3 {
   color: black;
   font-size: 12px;
   z-index: 2;
-  cursor: pointer;
-}
-
-#backtop span {
-  font-weight: 900;
-  float: left;
-  margin: 4px 10px;
-}
-
-#backtop svg {
-  height: 25px;
-}
+  cursor: pointer; }
+  #backtop span {
+    font-weight: 900;
+    float: left;
+    margin: 4px 10px; }
+  #backtop svg {
+    height: 25px; }

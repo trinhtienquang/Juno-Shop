@@ -1,67 +1,50 @@
 #innerfooter {
-  padding: 20px 0px 40px;
-}
-#innerfooter h4 {
-  font-size: 14px;
-  line-height: 18px;
-  margin-bottom: 13px;
-  font-weight: 600;
-}
-#innerfooter .hotline h5 {
-  font-size: 25px;
-  line-height: 21px;
-  margin-bottom: 5px;
-}
+  padding: 20px 0px 40px; }
+  #innerfooter h4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 13px;
+    font-weight: 600; }
+  #innerfooter .hotline h5 {
+    font-size: 25px;
+    line-height: 21px;
+    margin-bottom: 5px; }
+  #innerfooter .hotline span {
+    font-size: 13px;
+    margin: 5px 0 0 0;
+    font-weight: 400; }
+  #innerfooter a.store_bellow_link {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #797878 !important;
+    text-decoration: underline;
+    transition: opacity 150ms linear, color 150ms linear; }
+    #innerfooter a.store_bellow_link:hover {
+      color: black !important;
+      text-decoration: none; }
+    #innerfooter a.store_bellow_link i {
+      font-size: 10px;
+      text-decoration: none; }
+  #innerfooter ul.nav-social {
+    padding: 0; }
+    #innerfooter ul.nav-social li.social {
+      margin-right: 20px;
+      margin-top: 10px; }
+      #innerfooter ul.nav-social li.social i {
+        font-size: 20px; }
+      #innerfooter ul.nav-social li.social a:hover i.fa-facebook {
+        color: blue; }
+      #innerfooter ul.nav-social li.social a:hover i.fa-youtube {
+        color: red; }
+      #innerfooter ul.nav-social li.social a:hover i.fa-instagram {
+        color: #7b472c; }
 
-#innerfooter .hotline span {
-  font-size: 13px;
-  margin: 5px 0 0 0;
-  font-weight: 400;
-}
-
-#innerfooter a.store_bellow_link {
-  display: block;
-  font-size: 14px;
-  margin-top: 10px;
-  color: #797878;
-  text-decoration: underline;
-  transition: opacity 150ms linear, color 150ms linear;
-}
-
-#innerfooter a.store_bellow_link:hover {
-  color: black;
-  text-decoration: none;
-}
-
-#innerfooter a.store_bellow_link i {
-  font-size: 10px;
-  text-decoration: none;
-}
-#innerfooter ul.nav-social {
-  padding: 0;
-}
-#innerfooter li.social {
-  margin-right: 20px;
-  margin-top: 10px;
-}
-#innerfooter li.social i {
-  font-size: 20px;
-}
-
-#innerfooter li.social a:hover i.fa-facebook {
-  color: blue;
-}
-#innerfooter li.social a:hover i.fa-youtube {
-  color: red;
-}
-#innerfooter li.social a:hover i.fa-instagram {
-  color: #7b472c;
-}
 #footer .accordion-header,
 #footer .accordion-body {
   background-color: #f1f1f1;
-  padding: 6px 105px;
-}
+  padding: 6px 105px; }
+
 #footer .accordion-button {
   background-color: transparent;
   box-shadow: none;
@@ -69,15 +52,17 @@
   padding: 16px 0px;
   font-size: 14px;
   font-weight: 600;
-}
+  color: black !important; }
+
+#footer .accordion-button::after {
+  background-image: none;
+  content: url("data:image/svg+xml; utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20stroke-width%3D%221.5%22%20stroke%3D%22currentColor%22%20class%3D%22w-6%20h-6%22%3E%0A%20%20%3Cpath%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22m19.5%208.25-7.5%207.5-7.5-7.5%22%20%2F%3E%0A%3C%2Fsvg%3E%0A");
+  transform: none; }
 
 #footer .accordion-body ul {
-  padding: 0;
-}
-#footer .accordion-body ul li {
-  margin-bottom: 8px;
-}
-#footer .accordion-body ul li a {
-  font-size: 14px;
-  font-weight: 400;
-}
+  padding: 0; }
+  #footer .accordion-body ul li {
+    margin-bottom: 8px; }
+    #footer .accordion-body ul li a {
+      font-size: 14px;
+      font-weight: 400; }

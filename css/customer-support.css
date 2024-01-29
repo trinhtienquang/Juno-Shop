@@ -5,112 +5,90 @@
 #frequently-questions,
 #loyal-customers,
 #shopping-guide {
-  margin-top: 70px;
-  padding: 30px 0px;
-}
-#loyal-customers {
-  margin-top: 59px;
-  padding-top: 0px;
-}
+  margin-top: 62px;
+  padding: 30px 0; }
+
 #Returnwarranty h1,
 #sizeselection h1,
 #payment-delivery h1 {
   font-size: 36px;
-  margin-bottom: 13px;
-}
+  margin-bottom: 13px; }
 
 #Returnwarranty img {
-  margin-bottom: 13px;
-}
+  margin-bottom: 13px; }
+
 #sizeselection em strong {
   font-size: 14px;
   margin-bottom: 35px;
-  display: block;
-}
+  display: block; }
 
 #sizeselection .end-sec {
-  margin: 10px 0px;
-  border-top: 1px solid black;
-}
+  margin: 10px 0;
+  border-top: 1px solid black; }
+
 #sizeselection,
 #frequently-questions p {
   font-size: 14px;
-  font-weight: 500;
-}
+  font-weight: 500; }
+
 #privacy-policy p,
 #shopping-guide p {
   font-size: 16px;
-  font-weight: 500;
-}
+  font-weight: 500; }
+
 #sizeselection p span {
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 #sizeselection table {
   border-color: #261c1c;
   height: 290px;
   width: 100%;
   border-collapse: collapse;
   font-size: 14px;
-  margin-bottom: 50px;
-}
-#sizeselection tr:first-child {
-  height: 82px;
-  text-align: center;
-  background-color: #e3e3e3;
-}
-#sizeselection table tr td:first-child {
-  padding-left: 0px;
-  width: 87px;
-}
-#sizeselection table tr td {
-  padding: 10px;
-}
-#sizeselection table tr td {
-  border-top: 1px solid #dddddd;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-}
+  margin-bottom: 50px; }
+  #sizeselection table tr:first-child {
+    height: 82px;
+    text-align: center;
+    background-color: #e3e3e3; }
+  #sizeselection table tr td:first-child {
+    padding-left: 0px;
+    width: 87px; }
+  #sizeselection table tr td {
+    padding: 10px;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid black;
+    border-right: 1px solid black; }
+  #sizeselection table tr:last-child {
+    border-bottom: 1px solid black; }
 
-#sizeselection table tr:last-child {
-  border-bottom: 1px solid black;
-}
+#loyal-customers {
+  padding-top: 0; }
+  #loyal-customers .fisrt-content {
+    padding-top: 90px;
+    padding-bottom: 34px;
+    background-color: #e6e6e6; }
+  #loyal-customers .container {
+    max-width: 1175px; }
+  #loyal-customers .second-content {
+    background: url("../img/loyal-customer/bg2.jpg") no-repeat scroll 0 bottom transparent;
+    padding-bottom: 30px;
+    margin-top: 30px; }
+    #loyal-customers .second-content .faq {
+      background: url("../img/loyal-customer/title2.jpg");
+      width: 713px;
+      height: 84px; }
+    #loyal-customers .second-content .faq-container .faq-question {
+      margin: 0;
+      padding: 0 0 5px 0;
+      display: inline-block;
+      cursor: pointer;
+      font-weight: bold; }
+      #loyal-customers .second-content .faq-container .faq-question h3 {
+        font-size: 24px; }
+    #loyal-customers .second-content .faq-container .faq-answer-question p {
+      font-size: 14px;
+      font-weight: 500; }
 
-#loyal-customers .fisrt-content {
-  padding-top: 90px;
-  padding-bottom: 34px;
-  background-color: #e6e6e6;
-}
-
-#loyal-customers .container {
-  max-width: 1175px;
-}
-#loyal-customers .second-content {
-  background: url("../img/loyal-customer/bg2.jpg") no-repeat scroll 0 bottom
-    transparent;
-  padding-bottom: 30px;
-  margin-top: 30px;
-}
-#loyal-customers .second-content .faq {
-  background: url("../img/loyal-customer/title2.jpg");
-  width: 713px;
-  height: 84px;
-}
-
-#loyal-customers .faq-container .faq-question {
-  margin: 0px;
-  padding: 0px 0px 5px 0px;
-  display: inline-block;
-  cursor: pointer;
-  font-weight: bold;
-}
-#loyal-customers .faq-container .faq-question h3 {
-  font-size: 24px;
-}
-#loyal-customers .faq-container .faq-answer-question p {
-  font-size: 14px;
-  font-weight: 500;
-}
 #shopping-guide img {
   display: block;
-  margin: 0 auto;
-}
+  margin: 0 auto; }

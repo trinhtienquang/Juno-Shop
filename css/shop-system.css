@@ -1,25 +1,22 @@
 #banner {
-  margin-top: 70px;
-}
-#banner img {
-  width: 100%;
-  height: auto;
-}
+  margin-top: 58px; }
+  #banner img {
+    width: 100%;
+    height: auto; }
 
 #find-showroom .title h1,
 #showroom-intro .title h1 {
   font-size: 26px;
   text-transform: uppercase;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 #find-showroom .title p,
 #showroom-intro .title p {
   font-size: 14px;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
-#find-showroom select {
+#find-showroom select,
+#showroom-intro select {
   height: 40px;
   font-size: 14px;
   outline: none;
@@ -32,12 +29,14 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: 15px;
-  background-position-x: 95%;
-}
+  background-position-x: 95%; }
 
 #find-showroom select.choose-city,
 #find-showroom select.choose-district,
-#find-showroom input.find {
+#find-showroom input.find,
+#showroom-intro select.choose-city,
+#showroom-intro select.choose-district,
+#showroom-intro input.find {
   height: 40px;
   font-size: 14px;
   outline: none;
@@ -50,13 +49,14 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: 15px;
-  background-position-x: 95%;
-}
-#find-showroom select.choose-district {
-  margin: 0 5px;
-}
+  background-position-x: 95%; }
 
-#find-showroom input.find {
+#find-showroom select.choose-district,
+#showroom-intro select.choose-district {
+  margin: 0 5px; }
+
+#find-showroom input.find,
+#showroom-intro input.find {
   height: 40px;
   font-size: 14px;
   outline: none;
@@ -70,30 +70,23 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: 15px;
-  background-position-x: 95%;
-}
+  background-position-x: 95%; }
 
 #showroom-intro {
   margin-top: 30px;
-  padding: 25px 0px 50px;
-}
-#showroom-intro .title {
-  padding-bottom: 0px;
-}
-
-#showroom-intro .showroom-intro-content {
-  position: relative;
-}
-#showroom-intro .box-content {
-  position: absolute;
-  height: 30px;
-  line-height: 34px;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: #ffffffde;
-}
-#showroom-intro .box-content span {
-  font-size: 14px;
-}
+  padding: 25px 0px 50px; }
+  #showroom-intro .title {
+    padding-bottom: 0px; }
+  #showroom-intro .showroom-intro-content {
+    position: relative; }
+    #showroom-intro .showroom-intro-content .box-content {
+      position: absolute;
+      height: 30px;
+      line-height: 34px;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: #ffffffde; }
+      #showroom-intro .showroom-intro-content .box-content span {
+        font-size: 14px; }
